@@ -1,0 +1,28 @@
+# Environment and credentials
+**/.env
+**/.env.*
+!**/.env.example
+**/auth.json
+**/*.pem
+**/*.key
+
+# Dependencies
+**/node_modules/
+**/vendor/
+
+# Build output
+**/dist/
+**/public/build/
+**/public/hot
+
+# Local database and runtime files
+/backend/laravel/database/*.sqlite
+/backend/laravel/database/*.sqlite-*
+**/*.log
+**/.phpunit.cache/
+**/.phpunit.result.cache
+
+# Editor and OS files
+**/.DS_Store
+**/Thumbs.db
+**/.idea/

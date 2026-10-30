@@ -1,0 +1,33 @@
+export const products = [
+  {
+    id: 1,
+    title: 'Starter Game Bundle',
+    subtitle: 'Three games to start your collection',
+    category: 'PC Gaming',
+    region: 'Global',
+    image: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=85',
+    badge: 'Popular',
+    price: 10.99,
+  },
+  {
+    id: 2,
+    title: 'Digital Store Gift Card',
+    subtitle: 'Add credit to your digital wallet',
+    category: 'Steam',
+    region: 'Global',
+    image: 'https://images.unsplash.com/photo-1603481546238-487240415921?auto=format&fit=crop&w=800&q=85',
+    badge: 'New',
+    price: 19.99,
+  },
+  {
+    id: 3,
+    title: 'Gaming Subscription',
+    subtitle: 'One month of premium access',
+    category: 'Subscriptions',
+    region: 'Global',
+    image: 'https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=85',
+    badge: 'Sale',
+    price: 29.99,
+    oldPrice: 39.99,
+  },
+]
